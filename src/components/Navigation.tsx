@@ -1,0 +1,14 @@
+import Container  from 'react-bootstrap/Container'
+import  Navbar  from 'react-bootstrap/Navbar'
+
+type Props = {}
+
+export default function Navigation({}: Props) {
+    return (
+        <Navbar bg="dark" data-bs-theme = "dark">
+            <Container fluid>
+                <Navbar.Brand>TO DO APP</Navbar.Brand>
+            </Container>
+        </Navbar>
+    )
+}
